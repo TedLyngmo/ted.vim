@@ -1,10 +1,10 @@
-" Vim color file -- candycode
+" Vim color file -- ted
 " Maintainer:   Justin Constantino <goflyapig-at-gmail-com>
 " Last Change:  2006 Aug 12
 
 set background=dark
 highlight clear
-let g:colors_name="candycode"
+let g:colors_name="ted"
 
 let save_cpo = &cpo
 set cpo&vim
@@ -131,8 +131,8 @@ hi WarningMsg   guifg=#ccae22       guibg=NONE          gui=bold
 " }}}
 " syntax highlighting groups (:help group-name) {{{
 
-hi Comment      guifg=#ff9922       guibg=NONE          gui=NONE
-            \   ctermfg=brown       ctermbg=NONE        cterm=NONE
+hi Comment      guifg=#ff8f00       guibg=NONE          gui=NONE
+            \   ctermfg=yellow      ctermbg=NONE        cterm=NONE
 
 hi Constant     guifg=#ff6050       guibg=NONE          gui=NONE
             \   ctermfg=red         ctermbg=NONE        cterm=NONE
